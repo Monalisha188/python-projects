@@ -14,5 +14,5 @@ t= "py"
 if ( s==t):
     print(" The extension of the file is:", end = " "); print("python")
 else:
-    print(" ")
+    print("  ")
     
