@@ -16,7 +16,7 @@ if __name__ == '__main__':
     student_info = input("Enter student information #{} in the following format(Name Age Contact_number Email-id):".format(student_num))
     
   student_info_list = student_info.split(' ')
-  print("\n the entered information is : \n Name: {}\n Age: {}\n Contact_number: {}\n Email-id: {}".format(student_info_list[0], student_info_list[1], student_info_list[2], student_inf0_list[3]))
+  print("\n the entered information is - \n Name: {}\n Age: {}\n Contact_number: {}\n Email-id: {}".format(student_info_list[0], student_info_list[1], student_info_list[2], student_inf0_list[3]))
   
   choice_check = input("Is the entered information correct? (yes/no):")
   
